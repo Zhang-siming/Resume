@@ -1,5 +1,7 @@
 body{
      background-color: #cccccc;
+    font-family: "HAKUYOGuiFanZi3500";
+    font-size: x-large;
      /*background-color: #f7f7f7;*/
 }
 
@@ -20,13 +22,24 @@ img{
     text-align:center;
 }
 hr{
-    padding: 10px 10px 0px 5px;
-    margin: 20px 0;
+    padding: 0 10px 5px;
+    margin: 10px 0;
     line-height: 1px;
     border-left: 200px solid #ddd;
     border-right: 200px solid #ddd;
     text-align: center;
+    width: 90%;
 }
+
+
+.p3{
+    /*font-weight: bold;*/
+    color: #761c19;
+    font-size: xx-large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
 
 
 
