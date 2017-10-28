@@ -1,17 +1,17 @@
-@font-face {
-    font-family: '博洋规范字3500';
-    src: url('../Resume/字体/博洋规范字3500.eot');
-    src: local('../字体/博洋规范字3500'),
-    local('博洋规范字3500'),
-    url('../Resume/字体/博洋规范字3500.woff') format('woff'),
-    url('../Resume/字体/博洋规范字3500.ttf') format('truetype'),
-    url('../Resume/字体/博洋规范字3500.svg#博洋规范字3500') format('svg');
-}
+/*@font-face {*/
+    /*font-family: '博洋规范字3500';*/
+    /*src: url('../Resume/字体/博洋规范字3500.eot');*/
+    /*src: local('../字体/博洋规范字3500'),*/
+    /*local('博洋规范字3500'),*/
+    /*url('../Resume/字体/博洋规范字3500.woff') format('woff'),*/
+    /*url('../Resume/字体/博洋规范字3500.ttf') format('truetype'),*/
+    /*url('../Resume/字体/博洋规范字3500.svg#博洋规范字3500') format('svg');*/
+/*}*/
 
 body{
      background-color: #cccccc;
-    font-family: 博洋规范字3500, sans-serif;
-    font-size: x-large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
      /*background-color: #f7f7f7;*/
 }
 
@@ -32,13 +32,13 @@ img{
     text-align:center;
 }
 hr{
-    padding: 0 10px 5px;
-    margin: 10px 0;
+    /*padding: 0 10px 5px;*/
+    /*margin: 10px 0;*/
     line-height: 1px;
     border-left: 200px solid #ddd;
     border-right: 200px solid #ddd;
     text-align: center;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -48,6 +48,31 @@ hr{
     font-size: xx-large;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.glyphicon-star{
+    color: #a94442;
+}
+
+#04, #05{
+    color: #adadad;
+}
+
+.glyphicon-heart{
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    background-color: #a94442;
+    padding: 10px;
+    color: #e7e7e7;
+    text-align: justify;
+    font-size: small;
+}
+/*.bs-example{*/
+    /*color: #a94442;*/
+/*}*/
+/*.progress-bar-success{*/
+    /*color: #a94442;*/
+/*}*/
+/*.progress-bar-info{*/
+    /*color: #cccccc;*/
+/*}*/
 
 
 
