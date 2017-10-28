@@ -1,6 +1,16 @@
+@font-face {
+    font-family: '博洋规范字3500';
+    src: url('../Resume/字体/博洋规范字3500.eot');
+    src: local('../字体/博洋规范字3500'),
+    local('博洋规范字3500'),
+    url('../Resume/字体/博洋规范字3500.woff') format('woff'),
+    url('../Resume/字体/博洋规范字3500.ttf') format('truetype'),
+    url('../Resume/字体/博洋规范字3500.svg#博洋规范字3500') format('svg');
+}
+
 body{
      background-color: #cccccc;
-    font-family: "HAKUYOGuiFanZi3500";
+    font-family: 博洋规范字3500, sans-serif;
     font-size: x-large;
      /*background-color: #f7f7f7;*/
 }
